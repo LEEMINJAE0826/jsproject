@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>숫자 맞추기 게임</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    아 정말이지 하면 할 수록 재밌으면서도 머리카락 다 빠지는 느낌이다. 설정을
-    하면서도 많은 오류가 있었다. gpt의 힘을 빌어 약 3시간만에 겨우겨우 여기까지
-    도달할 수 있었다.
+    <div class="wrap">
+      <div class="item">
+        <div class="title">숫자 맞추기 게임</div>
+        <div id="result-area">UP OR DOWN</div>
+        <div id="chance-area">CHANCE : 5</div>
+        <input type="number" id="user-input" />
+        <div class="button">
+          <button id="play-button" class="btn">GO</button>
+          <button id="reset-button" class="btn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
