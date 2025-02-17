@@ -69,6 +69,14 @@ function reset() {
     userInput.value = "";
     pickRandomNum();
 
+    chances = 5;
+    history = [];
+    gameOver = false;
+
     resultArea.textContent = "UP OR DOWN"
+    chanceArea.textContent = `CHANCE : ${chances}`;
+
+    playButton.disabled = false;
+    
 }
 pickRandomNum();
